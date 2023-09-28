@@ -34,15 +34,38 @@ body{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
 }
-.VDO{
-    margin-top: 20px;
-    padding-top: 20px;
+section{
+    margin-top: 0.5rem;
+}
+.Container{
+    padding-top: 0.5rem;
     background-color: #ffe8a9;
 }
 footer{
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     background-color:#f0c650;
+    overflow: auto;
+}
+div{
+    text-align:center;
+}
+.gallery{
+    border: #a9840b solid;
+    width: 70%;
+    margin:3px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+.gallery img {
+    width: 100%;
+    height: auto;
+    float: left;
+ }
+.information{
+    text-align: center;
 }
 .img{
     margin-top: 10px;
