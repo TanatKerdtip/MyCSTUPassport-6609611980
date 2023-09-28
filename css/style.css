@@ -62,16 +62,30 @@ div{
 .gallery img {
     width: 100%;
     height: auto;
-    float: left;
+    padding: auto;
  }
 .information{
     text-align: center;
 }
 .img{
     margin-top: 10px;
+    width: 50%;
+    border-radius: 5%;
+}
+.Profilepic{
+    margin-top: 10px;
     width: 300px;
     height: 300px;
     border-radius: 50%;
+}
+.Professor{
+    padding-bottom: 1rem;
+}
+.Professorimg{
+    margin-top: 10px;
+    width: 20%;
+    height: 20%;
+    border-radius: 5%;
 }
 video{
     border-radius: 1%;
@@ -83,5 +97,10 @@ h2{
     font-family: 'Quicksand', sans-serif;
 }
 a{
-    color: #fad777;
+    color: #000000;
+    text-decoration: none;
+}
+li{
+    display: list-item;
+    text-align: -webkit-match-parent;
 }
