@@ -27,6 +27,9 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     .col-11 {width: 91.66%;}
     .col-12 {width: 100%;}
     h6,h5,h4,h3,h2,h1,p{font-size: 90%;}
+    .topnav a{
+        font-size: 100%;
+    }
     
   }
   
@@ -73,42 +76,37 @@ body, h1, h2, h3, h4, h5, h6, p, ol, ul {
     .col-l-10 {width: 83.33%;}
     .col-l-11 {width: 91.66%;}
     .col-l-12 {width: 100%;}
+
 } 
 *{
     box-sizing: border-box;
 }
 
-.row::after{
+.Container::after {
     content: "";
     clear: both;
     display: table;
-}
-  
+  }
+
 header{
+    padding-top:1%;
     background-color:#f0c650;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
     width: 100%;
+    height: 100%;
 }
 .topnav{
-    overflow: auto;
+    overflow:auto;
     background-color: #ffeab0;
-}
-.topnav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
-.topnav li{
-    padding: 0px;
-    margin-bottom: 0px;
+    display: flexbox;
 }
 .topnav a{
     float: left;
     color: #000000;
     text-align: center;
-    padding: 14px;
-    font-size: 17px;
+    padding: 1%;
+    font-size: 100%;
     text-decoration:none;
 }
 .topnav a:hover {
@@ -124,29 +122,35 @@ body{
     background-color:#fbefcf;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
+    height: 80%;
 }
 section{
     margin-top: 0.5rem;
     text-align:center;
     width: 100%;
-    height: initial;
 }
 .Container{
-    padding-top: 0.5rem;
+    margin-top: 2%;
     background-color: #ffe8a9;
     width: 100%;
 }
-footer{
+.Container2{
+    margin-top: 2%;
+    background-color:#f5cd60;
+    width: 100%;
+}
+.footer{
+    padding: 5%;
     text-align: center;
     font-family: 'Quicksand', sans-serif;
-    background-color:#f0c650;
     width:100%;
     overflow:auto;
 }
 div{
-    text-align: left;
+    text-align: center;
 }
 .gallery{
+    display: flex;
     margin:3px;
     margin-left: auto;
     margin-right: auto;
@@ -161,17 +165,22 @@ div{
  }
 .information{
     text-align: center;
+    margin:3%;
 }
 .img{
     margin-top: 2%;
     width: 50%;
     border-radius: 5%;
 }
+.Profile{
+    padding: 5%;
+}
 .Profilepic{
     margin-top: 2%;
     width: 30%;
-    height: 30%;
+    height: 100%;
     border-radius: 50%;
+    margin-bottom: 3%;
 }
 .link img{
     width:5%;
@@ -179,6 +188,7 @@ div{
 }
 .link{
     text-align: center;
+    display: block;
 }
 .Professor{
     padding-bottom: 1rem;
